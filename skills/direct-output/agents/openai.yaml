@@ -1,0 +1,6 @@
+interface:
+  display_name: "直接表达"
+  short_description: "按场景给出结论和必要细节，减少流程堆砌、术语堆叠与防御性措辞"
+  default_prompt: "使用 $direct-output 按当前任务选择必要流程和回复内容，直接给出用户需要的结果与有用细节。"
+policy:
+  allow_implicit_invocation: true

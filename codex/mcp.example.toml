@@ -1,0 +1,12 @@
+# EXAMPLES ONLY: replace the URL/command and deliberately enable your own server.
+# Copy selected tables into your own Codex config.toml; never commit a token.
+
+[mcp_servers.sample_remote]
+enabled = false
+url = "https://mcp.example.com/mcp"
+bearer_token_env_var = "SAMPLE_MCP_TOKEN"
+
+[mcp_servers.sample_local]
+enabled = false
+command = "python"
+args = ["/absolute/path/to/your/mcp_server.py"]

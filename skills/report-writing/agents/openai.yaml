@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Report Writing"
+  short_description: "Plan, draft, polish, and review reports"
+  default_prompt: "Use $report-writing to turn my materials into a structured, polished report."
+
+policy:
+  allow_implicit_invocation: true

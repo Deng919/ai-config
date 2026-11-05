@@ -1,0 +1,24 @@
+# User configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.*
+auth.json
+credentials.json
+*.key
+*.pem
+
+# Generated or private runtime state
+.codex/
+.agents/
+.venv/
+__pycache__/
+*.pyc
+.test-work/
+backups/
+logs/
+*.log
+*.sqlite*
+*.db
+*.zip
+*.bak

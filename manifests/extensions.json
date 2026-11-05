@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-05",
+  "scope": "Public sharing reference; no account, runtime state, personal paths, or cached plugin files.",
+  "skills": [
+    {
+      "name": "antigravity-cn-pack",
+      "summary": "维护 Windows 上 Antigravity 的非官方中文补丁。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "本地个人技能；上游来源未记录",
+      "provenance": "Local personal configuration; original upstream not recorded."
+    },
+    {
+      "name": "anysearch",
+      "summary": "实时网页、垂直领域与批量搜索，提取网页正文。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "anysearch-ai/anysearch-skill",
+      "repository": "https://github.com/anysearch-ai/anysearch-skill",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "brainstorming",
+      "summary": "实现前澄清目标、约束并讨论方案。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "summary": "把可独立处理的任务交给多个代理并行执行。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "summary": "完成验证后处理分支、提交、合并或 PR 收尾。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "frontend-automation-qa",
+      "summary": "用真实浏览器检查界面、交互、响应式及控制台错误。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "本地个人技能；上游来源未记录",
+      "provenance": "Local personal configuration; original upstream not recorded."
+    },
+    {
+      "name": "hatch-pet",
+      "summary": "生成、验证并打包 Codex 动画宠物。",
+      "bundled": false,
+      "maintainer_enabled": false,
+      "source": "本地个人技能；上游来源未记录",
+      "provenance": "Local personal configuration; original upstream not recorded."
+    },
+    {
+      "name": "playwright",
+      "summary": "通过命令行控制浏览器、截图和调试页面流程。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "openai/skills",
+      "repository": "https://github.com/openai/skills",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "receiving-code-review",
+      "summary": "核实收到的代码评审意见后再实施。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "report-writing",
+      "summary": "规划、撰写、修改报告，检查论证、引用及图表说明。",
+      "bundled": true,
+      "maintainer_enabled": true,
+      "source": "本地个人技能；上游来源未记录",
+      "provenance": "Local personal configuration; original upstream not recorded."
+    },
+    {
+      "name": "requesting-code-review",
+      "summary": "组织代码变更的规格与质量评审。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "summary": "用 REA 分析程序、安装包、二进制及运行时证据。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "rea-agents（2026-10-17 更新记录：6.5.0）"
+    },
+    {
+      "name": "scientific-reasoning",
+      "summary": "数学和物理推导、证明、直觉及结果验证。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "beita6969/scienceclaw",
+      "repository": "https://github.com/beita6969/scienceclaw",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "sympy",
+      "summary": "符号计算、微积分、方程、矩阵及公式验证。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "systematic-debugging",
+      "summary": "先收集证据与定位原因，再修复程序问题。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "test-driven-development",
+      "summary": "以失败测试、实现、重构的循环开发行为。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "using-git-worktrees",
+      "summary": "为代码工作建立隔离的 Git 工作树。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "using-superpowers",
+      "summary": "把工程任务引导到适合的 Superpowers 流程技能。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "verification-before-completion",
+      "summary": "完成或成功汇报前取得实际验证证据。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "writing-plans",
+      "summary": "把需求或设计转成分步实施计划。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "upstream_version_verified": false
+    },
+    {
+      "name": "direct-output",
+      "summary": "使用直接、简洁的表达，删除防御性和自我辩护式文字。",
+      "bundled": true,
+      "maintainer_enabled": true,
+      "source": "本地个人技能；上游来源未记录",
+      "provenance": "Local personal configuration; original upstream not recorded."
+    },
+    {
+      "name": "pandaai-factor-online",
+      "summary": "通过 PandaAI CLI 挖掘、回测并迭代量化因子。",
+      "bundled": false,
+      "maintainer_enabled": true,
+      "source": "quantskills/skill-pandaai-factor-online",
+      "repository": "https://github.com/quantskills/skill-pandaai-factor-online",
+      "upstream_version_verified": false
+    }
+  ],
+  "plugins": [
+    {
+      "name": "documents",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "spreadsheets",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "presentations",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "pdf",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "template-creator",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "visualize",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "computer-use",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "codex-app-tools",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "browser",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "browser-use",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "chrome",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "unified-computer-use",
+      "publisher": "OpenAI",
+      "bundled": false
+    },
+    {
+      "name": "hyperframes",
+      "marketplace": "openai-curated",
+      "publisher": "not verified",
+      "bundled": false
+    }
+  ],
+  "mcp": [
+    {
+      "name": "anysearch",
+      "bundled": false,
+      "configuration": "User supplies their own service, runtime and authentication."
+    },
+    {
+      "name": "chatgpt_bridge",
+      "bundled": false,
+      "configuration": "User supplies their own service, runtime and authentication."
+    },
+    {
+      "name": "pandadata",
+      "bundled": false,
+      "configuration": "User supplies their own service, runtime and authentication."
+    },
+    {
+      "name": "node_repl",
+      "bundled": false,
+      "configuration": "User supplies their own service, runtime and authentication."
+    },
+    {
+      "name": "rea",
+      "bundled": false,
+      "configuration": "User supplies their own service, runtime and authentication."
+    }
+  ]
+}

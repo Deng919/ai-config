@@ -1,0 +1,6 @@
+# Read this example and merge the settings you want into your own config.toml.
+# install.ps1 never copies this file automatically.
+personality = "pragmatic"
+
+# Keep your own model/provider settings. Choose a model your account can access.
+# Optional MCP templates live in mcp.example.toml; they are disabled placeholders.
