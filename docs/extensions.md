@@ -28,6 +28,12 @@
 
 这些地址来自历史安装登记，本次未逐一验证上游最新版本。查看其当前说明、许可证和依赖后再选择安装，不默认整套装入。
 
+## 可选参考：anti-slop
+
+[miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) 是第三方写作和界面检查资料。2026-11-13 审阅了提交 `54e39872aeba6a699b40f6a68f51307c3eea2901`；本配置选择性吸收反例选题和检查思路，不安装其整套技能或强制流程。
+
+具体取舍、手动审阅示例、WCAG 字号修正和 MIT 来源说明见 [anti-slop 参考与取舍](anti-slop.md)。该项目登记在清单的 `optional_references` 中，安装器不会读取或安装它。
+
 ## MCP 服务
 
 | 名称 | 用途 | 本仓库提供什么 |

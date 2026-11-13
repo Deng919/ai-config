@@ -23,3 +23,5 @@ python -m unittest discover -s tests -v
 v0.1 的验证范围是 Windows 安装器及静态配置。外部服务授权、所有第三方技能的运行和其他系统上的安装不在本版本验证范围内。
 
 2026-11-05：Windows PowerShell 5.1 和 PowerShell 7 分别通过 13 项测试；两个附带技能通过 skill-creator 的格式校验。只读代码检查提出的大小写和顺序差异显示问题已修正，并加入测试。
+
+2026-11-13：增加 anti-slop 可选来源、取舍及 MIT 许可记录，补充 direct-output 的中文反例；维护者本机前端 QA 增加按改动选择的响应式与无障碍检查。Windows PowerShell 5.1 和 PowerShell 7 分别通过现有 13 项测试，本机两项修改技能及仓库两个附带技能均通过 skill-creator 格式校验。此次验证覆盖格式、公开内容和安装行为，未对新增提示规则进行输出效果对照。

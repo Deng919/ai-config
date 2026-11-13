@@ -67,10 +67,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -ReplaceExisti
 
 - [本机参数和可选习惯](docs/customization.md)：运行环境、文件目录、自动推送、图片生成。
 - [扩展选择](docs/extensions.md)：官方能力、第三方来源和服务依赖。
+- [anti-slop 参考与取舍](docs/anti-slop.md)：中文表达示例、前端检查补充及手动审阅用法。
 - [维护与验证](docs/maintenance.md)：更新、测试、发布检查。
 
 ## 来源与许可
 
-这两个技能来自维护者提供的本地个人配置，经整理后分享；原始上游来源没有登记，见 [来源记录](manifests/extensions.json)。其他第三方内容仅登记来源，不随仓库复制。仓库内发布的配置、技能、文档和脚本采用 [MIT](LICENSE) 许可；外部项目保留各自许可证。
+这两个技能来自维护者提供的本地个人配置，经整理后分享；原始上游来源没有登记，见 [来源记录](manifests/extensions.json)。2026-11-13 增补的中文表达反例参考了 anti-slop 的选题，示例在本仓库重新编写；[参考与取舍](docs/anti-slop.md) 记录了来源与修改范围，并保留其 [MIT 许可](docs/licenses/anti-slop-MIT.txt)。本仓库不附带第三方上游技能或安装器。仓库内发布的配置、技能、文档和脚本采用 [MIT](LICENSE) 许可；外部项目保留各自许可证。
 
 已移除原环境中的固定盘符、个人路径、账号管理器、历史会话和日志。支持范围为 Windows；macOS/Linux 使用者可以手动参考文本配置，安装脚本未在这些系统验证。

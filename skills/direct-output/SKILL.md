@@ -54,8 +54,13 @@ description: Use when drafting or revising assistant replies, progress updates, 
 | 这不是简单的换配色，而是一次全面升级。 | 已调整配色、字体与页面布局。 |
 | 改标题前，我将先核验、建立基线、冻结快照、完成审计和门禁。 | 我把标题改成《学习计划》。 |
 | 已完成多轮回测、检查、复核与归档，形成完整证据链。 | 报告结论：扣除交易成本后，策略收益与基准接近。 |
+| 全面赋能工作流程，带来前所未有的效率提升。 | 写明实际功能，例如“支持批量导出 CSV”；效率提升需要测量依据。 |
+| 业内普遍认为，这是行业领先的方案。 | 给出可核实的来源和比较条件；缺少依据时删除权威背书。 |
+| 更快、更强、更智能，让未来触手可及。 | 写明与任务相关的改进；没有具体信息时删除口号。 |
 
 示例中的动作与验证结果均为写法示范，实际回复依据真实记录填写。
+
+按上下文判断表达是否空泛，保留用户的事实、语气和有用途的修辞；不要机械禁用某个词、标点或句式，也不要凭这些特征判定文本由 AI 生成。
 
 ## 容易走偏的判断
 
@@ -83,3 +88,5 @@ description: Use when drafting or revising assistant replies, progress updates, 
 ## 写作依据
 
 [Microsoft 写作指南](https://learn.microsoft.com/en-us/style-guide/top-10-tips-style-voice)提出重点前置、精简内容和使用直接动词。上面的防御性表达规则按用户的输出偏好制定。
+
+空泛宣传与无来源背书的反例选题参考 [anti-slop 写作模块](https://github.com/miqdadbadjuber/anti-slop/blob/54e39872aeba6a699b40f6a68f51307c3eea2901/skills/antislop-copywriting/SKILL.md)，中文示例与适用范围按本技能用途编写。

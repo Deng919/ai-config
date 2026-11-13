@@ -48,11 +48,12 @@
     },
     {
       "name": "frontend-automation-qa",
-      "summary": "用真实浏览器检查界面、交互、响应式及控制台错误。",
+      "summary": "按改动范围用真实浏览器检查界面、交互、响应式、无障碍及控制台错误。",
       "bundled": false,
       "maintainer_enabled": true,
       "source": "本地个人技能；上游来源未记录",
-      "provenance": "Local personal configuration; original upstream not recorded."
+      "provenance": "Local personal configuration; original upstream not recorded.",
+      "local_customization": "2026-11-13: locally written additions informed by anti-slop; task-proportional checks, intermediate viewport widths, relevant states and accessibility; WCAG contrast thresholds verified against W3C."
     },
     {
       "name": "hatch-pet",
@@ -182,7 +183,8 @@
       "bundled": true,
       "maintainer_enabled": true,
       "source": "本地个人技能；上游来源未记录",
-      "provenance": "Local personal configuration; original upstream not recorded."
+      "provenance": "Local personal configuration; original upstream not recorded.",
+      "local_customization": "2026-11-13: added three locally written Chinese examples informed by anti-slop copywriting topics; preserve author voice and avoid mechanical style bans."
     },
     {
       "name": "pandaai-factor-online",
@@ -192,6 +194,21 @@
       "source": "quantskills/skill-pandaai-factor-online",
       "repository": "https://github.com/quantskills/skill-pandaai-factor-online",
       "upstream_version_verified": false
+    }
+  ],
+  "optional_references": [
+    {
+      "name": "anti-slop",
+      "source": "miqdadbadjuber/anti-slop",
+      "repository": "https://github.com/miqdadbadjuber/anti-slop",
+      "reviewed_commit": "54e39872aeba6a699b40f6a68f51307c3eea2901",
+      "reviewed_on": "2026-11-13",
+      "license": "MIT",
+      "bundled": false,
+      "maintainer_enabled": false,
+      "usage": "Optional writing and UI review reference; no upstream skill or installer is included or activated. Locally written examples selectively inform direct-output and the maintainer's frontend QA skill.",
+      "notes": "docs/anti-slop.md",
+      "license_notice": "docs/licenses/anti-slop-MIT.txt"
     }
   ],
   "plugins": [
